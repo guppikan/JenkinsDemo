@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello from build stage'
+                echo 'Hello from guppi build stage'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Hello from deploy stage'
+                echo 'Hello from guppi deploy stage'
             }
         }
         stage('Test') {
             steps {
-                echo 'Hello from test stage'
+                echo 'Hello from guppi test stage'
             }
         }
         stage('Release') {
             steps {
-                echo 'Hello from release stage'
+                echo 'Hello from guppi release stage'
             }
         }
     }
